@@ -10,4 +10,12 @@
     <h3>
         <asp:Button ID="ButtonAddSymptom" runat="server" Text="Ingresar Sintoma" Width="275px" />
     </h3>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <h1>
+        Editar Sintoma</h1>
+    <h4>
+        pipi</h4>
 </asp:Content>

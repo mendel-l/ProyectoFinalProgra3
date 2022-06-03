@@ -13,6 +13,8 @@ namespace ProyectoFinalConsultas
     {
         static List<Medicamento> medicamentos = new List<Medicamento>();
         static List<Enfermedad> enfermedades = new List<Enfermedad>();
+
+        string SearchDrug;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -53,14 +55,49 @@ namespace ProyectoFinalConsultas
         protected void ButtonAddMedicine_Click(object sender, EventArgs e)
         {
             Medicamento medicina = new Medicamento();
-            medicina.DrugCode = Convert.ToInt16(TextBoxDrugCode.Text);
+            medicina.DrugCode = TextBoxDrugCode.Text;
+            medicina.NameDrug = TextBoxNameDrug.Text;
             medicina.GenericIngredient = TextBoxGenericIngredient.Text;
             medicina.Laboratory = TextBoxLaboratory.Text;
             medicina.ListOfDiseases = enfermedades.ToArray().ToList();
 
             medicamentos.Add(medicina);
             SaveJsonMedicamento();
-            //enfermedades.Clear();
+        }
+
+        protected void ButtonSearch_Click(object sender, EventArgs e)
+        {
+            SearchDrug = TextBoxSearchDrugCode.Text;           
+
+            var found = medicamentos.FirstOrDefault(m => m.DrugCode == SearchDrug);
+
+            if (found == null)
+            {
+                Response.Write("<script>alert('no se encontró el Medicamento')</script>");
+                SearchDrug = "";
+                TextBoxModify.Text = "";
+
+            }
+            else
+            {
+                TextBoxModify.Text = found.NameDrug;
+            }
+
+        }
+
+        protected void ButtonModify_Click(object sender, EventArgs e)
+        {
+
+            SearchDrug = TextBoxSearchDrugCode.Text;
+
+            foreach (var drug in medicamentos)
+            {
+                if (drug.DrugCode == SearchDrug)
+                {
+                    drug.NameDrug = TextBoxModify.Text;
+                    SaveJsonMedicamento();
+                }
+            }
         }
     }
 }

@@ -25,15 +25,13 @@
         &nbsp;</p>
     <p>
         &nbsp;</p>
-    <p>
-        &nbsp;</p>
     <h1>Editar Medicamento</h1>
     <h4>Ingrese codigo del medicamento:<br />
         <asp:TextBox ID="TextBoxSearchDrugCode" runat="server" Width="250px"></asp:TextBox>
-        <asp:Button ID="ButtonSearch" runat="server" Text="Buscar Medicamento" Width="215px" />
+        <asp:Button ID="ButtonSearch" runat="server" OnClick="ButtonSearch_Click" Text="Buscar Medicamento" Width="215px" />
     </h4>
     <h4>Ingrese codigo del medicamento:<br />
         <asp:TextBox ID="TextBoxModify" runat="server" Width="250px"></asp:TextBox>
-        <asp:Button ID="ButtonModify" runat="server" Text="Modificar Medicamento" Width="215px" />
+        <asp:Button ID="ButtonModify" runat="server" OnClick="ButtonModify_Click" Text="Modificar Medicamento" Width="215px" />
     </h4>
 </asp:Content>

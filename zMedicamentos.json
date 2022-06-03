@@ -1,0 +1,27 @@
+[
+  {
+    "DrugCode": "codigo1",
+    
+    "NameDrug": "medicamento1 Modificado",
+    "GenericIngredient": "Ingrediente1",
+    "Laboratory": "Lab1",
+    "ListOfDiseases": [
+      { "nombreEnfermedad": "enfermedad1" },
+      { "nombreEnfermedad": "enfermedad2" },
+      { "nombreEnfermedad": "enfermedad3" },
+      { "nombreEnfermedad": "enfermedad4" },
+      { "nombreEnfermedad": "enfermedad5" }
+    ]
+  },
+  {
+    "DrugCode": "codigo2",
+    "NameDrug": "medicamento2",
+    "GenericIngredient": "Ingrediente1",
+    "Laboratory": "Lab2",
+    "ListOfDiseases": [
+      { "nombreEnfermedad": "enfermedad1" },
+      { "nombreEnfermedad": "enfermedad3" },
+      { "nombreEnfermedad": "enfermedad5" }
+    ]
+  }
+]

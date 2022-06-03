@@ -7,7 +7,7 @@ namespace ProyectoFinalConsultas
 {
     public class Medicamento
     {
-        public int DrugCode { get; set; } //Código del medicamento
+        public string DrugCode { get; set; } //Código del medicamento
         public string NameDrug { get; set; } //esta no esta pero la agrege
         public string GenericIngredient { get; set; } //Ingrediente genérico
         public string Laboratory { get; set; } //Laboratorio (Marca comercial)
