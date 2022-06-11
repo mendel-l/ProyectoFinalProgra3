@@ -7,7 +7,7 @@ namespace ProyectoFinalConsultas
 {
     public class Sintoma
     {
-        public int SymptomCode { get; set; } //Código del síntoma
+        public string SymptomCode { get; set; } //Código del síntoma
         public string SymptomDescription { get; set; } //Descripción del síntoma
     }
 }

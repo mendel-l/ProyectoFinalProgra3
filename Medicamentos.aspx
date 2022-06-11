@@ -30,7 +30,7 @@
         <asp:TextBox ID="TextBoxSearchDrugCode" runat="server" Width="250px"></asp:TextBox>
         <asp:Button ID="ButtonSearch" runat="server" OnClick="ButtonSearch_Click" Text="Buscar Medicamento" Width="215px" />
     </h4>
-    <h4>Ingrese codigo del medicamento:<br />
+    <h4>Modifique el medicamento:<br />
         <asp:TextBox ID="TextBoxModify" runat="server" Width="250px"></asp:TextBox>
         <asp:Button ID="ButtonModify" runat="server" OnClick="ButtonModify_Click" Text="Modificar Medicamento" Width="215px" />
     </h4>

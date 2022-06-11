@@ -1,0 +1,14 @@
+[
+  {
+    "SymptomCode": "codigo1",
+    "SymptomDescription": "DescripcionSintoma1"
+  },
+  {
+    "SymptomCode": "codigo2",
+    "SymptomDescription": "DescripcionSintoma1Modificado"
+  },
+  {
+    "SymptomCode": "codigo3",
+    "SymptomDescription": "DescripcionSintoma2"
+  }
+]

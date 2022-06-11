@@ -76,18 +76,15 @@ namespace ProyectoFinalConsultas
                 Response.Write("<script>alert('no se encontró el Medicamento')</script>");
                 SearchDrug = "";
                 TextBoxModify.Text = "";
-
             }
             else
             {
                 TextBoxModify.Text = found.NameDrug;
             }
-
         }
 
         protected void ButtonModify_Click(object sender, EventArgs e)
         {
-
             SearchDrug = TextBoxSearchDrugCode.Text;
 
             foreach (var drug in medicamentos)
