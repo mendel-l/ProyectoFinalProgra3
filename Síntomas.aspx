@@ -22,7 +22,7 @@
         <asp:Button ID="ButtonSearch" runat="server" OnClick="ButtonSearch_Click" Text="Buscar Sintoma" Width="215px" />
     </h4>
     <h4>
-        Imodifique la descripcion del sintoma:<br />
+        modifique la descripcion del sintoma:<br />
         <asp:TextBox ID="TextBoxModify" runat="server" Width="250px"></asp:TextBox>
         <asp:Button ID="ButtonModify" runat="server" OnClick="ButtonModify_Click" Text="Editar Descripcion" Width="215px" />
     </h4>

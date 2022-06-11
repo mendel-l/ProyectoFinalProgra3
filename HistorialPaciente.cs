@@ -8,7 +8,7 @@ namespace ProyectoFinalConsultas
     public class HistorialPaciente
     {
         public int IDInquiry { get; set; } //ID de la consulta
-        public int NITPatient { get; set; } //NIT del paciente  
+        public string NITPatient { get; set; } //NIT del paciente  
         public DateTime DateHourInquiry { get; set; } //fecha y hora de la consulta
         public int Temperature { get; set; } //temperatura
         public int Pressure { get; set; } //presión

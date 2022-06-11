@@ -5,10 +5,14 @@
   },
   {
     "SymptomCode": "codigo2",
-    "SymptomDescription": "DescripcionSintoma1Modificado"
+    "SymptomDescription": "DescripcionSintoma2Modificado"
   },
   {
     "SymptomCode": "codigo3",
+    "SymptomDescription": "DescripcionSintoma3"
+  },
+  {
+    "SymptomCode": "codigo4",
     "SymptomDescription": "DescripcionSintoma2"
   }
 ]

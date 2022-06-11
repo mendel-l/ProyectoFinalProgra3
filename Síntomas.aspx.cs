@@ -60,7 +60,7 @@ namespace ProyectoFinalConsultas
 
             if (found == null)
             {
-                Response.Write("<script>alert('no se encontró el Medicamento')</script>");
+                Response.Write("<script>alert('no se encontró el Sintoma')</script>");
                 SearchSymptom = "";
                 TextBoxModify.Text = "";
             }
@@ -73,11 +73,11 @@ namespace ProyectoFinalConsultas
         {
             SearchSymptom = TextBoxSearchSymptomCode.Text;
 
-            foreach (var drug in sintomas)
+            foreach (var sin in sintomas)
             {
-                if (drug.SymptomCode == SearchSymptom)
+                if (sin.SymptomCode == SearchSymptom)
                 {
-                    drug.SymptomDescription = TextBoxModify.Text;
+                    sin.SymptomDescription = TextBoxModify.Text;
                     SaveJsonSintoma();
                 }
             }

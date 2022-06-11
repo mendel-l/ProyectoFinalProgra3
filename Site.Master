@@ -51,8 +51,15 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Inicio</a></li>
+
+                        <li><a runat="server" href="~/Pacientes">Pacientes</a></li>
+
+                        <li><a runat="server" href="~/Agenda">Agenda</a></li>
+
                         <li><a runat="server" href="~/Medicamentos">Medicamentos</a></li>
                         <li><a runat="server" href="~/Síntomas">Síntomas</a></li>
+                        
+                        <li><a runat="server" href="~/Historial de Pacientes">Historial de Pacientes</a></li>
                     </ul>
                 </div>
             </div>
