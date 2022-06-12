@@ -50,6 +50,8 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
+
+                        <!-- _______________Paginas_______________  -->
                         <li><a runat="server" href="~/">Inicio</a></li>
 
                         <li><a runat="server" href="~/Pacientes">Pacientes</a></li>
@@ -60,6 +62,9 @@
                         <li><a runat="server" href="~/Síntomas">Síntomas</a></li>
                         
                         <li><a runat="server" href="~/Historial de Pacientes">Historial de Pacientes</a></li>
+
+                         <li><a runat="server" href="~/LogOut">Cerrar Sesión</a></li>
+                        <!-- _______________Paginas_______________  -->
                     </ul>
                 </div>
             </div>

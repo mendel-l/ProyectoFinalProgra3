@@ -128,6 +128,7 @@
     <Content Include="ClassDiagram1.cd" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Historial de pacientes.aspx" />
+    <Content Include="LogOut.aspx" />
     <Content Include="Medicamentos.aspx" />
     <Content Include="Pacientes.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -209,6 +210,13 @@
       <DependentUpon>Historial de pacientes.aspx</DependentUpon>
     </Compile>
     <Compile Include="HistorialPaciente.cs" />
+    <Compile Include="LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Medicamento.cs" />
     <Compile Include="Medicamentos.aspx.cs">
       <DependentUpon>Medicamentos.aspx</DependentUpon>

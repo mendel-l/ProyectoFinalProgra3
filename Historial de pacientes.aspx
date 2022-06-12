@@ -71,7 +71,7 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <h3>
-        <asp:Button ID="ButtonAddData" runat="server" OnClick="ButtonAddData_Click" Text="Ingrasar Historial del Paciente" Width="350px" />
+        <asp:Button ID="ButtonAddData" runat="server" OnClick="ButtonAddData_Click" Text="Ingrasar Historial del Paciente" Width="400px" />
     </h3>
     <p>
         &nbsp;</p>
