@@ -27,11 +27,15 @@
     <h1>Editar Sintoma</h1>
     <h4>Ingrese NIT del paciente:<br />
         <asp:TextBox ID="TextBoxSearchPatientNIT" runat="server" Width="250px"></asp:TextBox>
-        <asp:Button ID="ButtonSearchPatientNIT" runat="server" Text="Buscar Consulta Paciente" Width="215px" />
+        <asp:Button ID="ButtonSearchPatientNIT" runat="server" Text="Buscar Consulta Paciente" Width="215px" OnClick="ButtonSearchPatientNIT_Click" />
     </h4>
     <h4>modifique la fecha de la consulta:<br />
         <asp:Calendar ID="CalendarModify" runat="server"></asp:Calendar>
-        <asp:Button ID="ButtonModifyDate" runat="server" Text="Modificar Fecha" Width="215px" />
+    </h4>
+    <h4>&nbsp;</h4>
+    <h4>&nbsp;</h4>
+    <h4>
+        <asp:Button ID="ButtonModifyDate" runat="server" Text="Modificar Fecha" Width="215px" OnClick="ButtonModifyDate_Click" />
     </h4>
     <p>
         &nbsp;</p>

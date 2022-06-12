@@ -17,8 +17,8 @@ namespace ProyectoFinalConsultas
         public string Treatment { get; set; } //tratamiento
         public List<Medicamento> Recipe { get; set; } //receta
         public string NextVisit { get; set; } //próxima visita
-        public List<int> ConsultationCost { get; set; } //costo de la consulta
-        public int Images { get; set; } //imágenes varias
+        public string ConsultationCost { get; set; } //costo de la consulta
+        public string Images { get; set; } //imágenes varias
 
     }
 }

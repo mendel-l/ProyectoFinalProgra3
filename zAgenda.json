@@ -1,0 +1,19 @@
+[
+  {
+    "Date": "2022-03-16T00:00:00",
+    "HourStart": "16hrs",
+    "HourFinish": "17hrs",
+    "IDInquiry": 0,
+    "NITPatient": "NIT1",
+    "DateHourInquiry": "0001-01-01T00:00:00",
+    "Temperature": 0,
+    "Pressure": 0,
+    "Symptoms": null,
+    "Diagnosis": null,
+    "Treatment": null,
+    "Recipe": null,
+    "NextVisit": null,
+    "ConsultationCost": null,
+    "Images": 0
+  }
+]

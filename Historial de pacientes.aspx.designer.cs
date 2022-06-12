@@ -15,111 +15,129 @@ namespace ProyectoFinalConsultas
     {
 
         /// <summary>
-        /// Control TextBoxNIT.
+        /// Control TextBoxID.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxNIT;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxID;
 
         /// <summary>
-        /// Control TextBoxName.
+        /// Control DropDownNITs.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxName;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownNITs;
 
         /// <summary>
-        /// Control Calendar1.
+        /// Control CalendarDateInquiry.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar Calendar1;
+        protected global::System.Web.UI.WebControls.Calendar CalendarDateInquiry;
 
         /// <summary>
-        /// Control TextBoxAddress.
+        /// Control TextBoxTemperature.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxAddress;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxTemperature;
 
         /// <summary>
-        /// Control TextBoxNIT0.
+        /// Control TextBoxPressure.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxNIT0;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxPressure;
 
         /// <summary>
-        /// Control TextBoxName0.
+        /// Control DropDownSymptoms.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxName0;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownSymptoms;
 
         /// <summary>
-        /// Control TextBoxLastName0.
+        /// Control TextBoxDiagnosis.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxLastName0;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxDiagnosis;
 
         /// <summary>
-        /// Control TextBoxAddress0.
+        /// Control TextBoxTreatment.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxAddress0;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxTreatment;
 
         /// <summary>
-        /// Control TextBoxNIT1.
+        /// Control DropDownRecipe.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxNIT1;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownRecipe;
 
         /// <summary>
-        /// Control TextBoxName1.
+        /// Control TextBoxNextVisit.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxName1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxNextVisit;
 
         /// <summary>
-        /// Control TextBoxLastName1.
+        /// Control TextBoxConsultationCost.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxLastName1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxConsultationCost;
 
         /// <summary>
-        /// Control TextBoxAddress1.
+        /// Control GridView1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxAddress1;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
+
+        /// <summary>
+        /// Control Image2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image Image2;
+
+        /// <summary>
+        /// Control ButtonAddData.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonAddData;
     }
 }
